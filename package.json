@@ -1,0 +1,23 @@
+{
+  "name": "px-em",
+  "version": "0.0.1",
+  "description": "Convert PX to EM.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ciceropablo/px-em.git"
+  },
+  "author": {
+    "name": "Cícero Pablo",
+    "email": "cicero.pablos@gmail.com",
+    "url": "ciceropablo.github.io"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ciceropablo/px-em/issues"
+  },
+  "homepage": "https://github.com/ciceropablo/px-em#readme"
+}
