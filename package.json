@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "jshint ./*.js",
-    "test": "npm run lint"
+    "test": "npm run lint && tape ./test.js | faucet"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,9 @@
   },
   "homepage": "https://github.com/ciceropablo/px-em#readme",
   "devDependencies": {
-    "jshint": "^2.8.0"
+    "faucet": "0.0.1",
+    "jshint": "^2.8.0",
+    "tape": "^4.2.0"
   },
   "dependencies": {
     "pinkie-promise": "^1.0.0"
