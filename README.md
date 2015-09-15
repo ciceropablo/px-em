@@ -1,4 +1,4 @@
-## px-em
+## px-em [![Build Status](https://travis-ci.org/ciceropablo/px-em.svg)](https://travis-ci.org/ciceropablo/px-em)
 > A module to convert PX in EM.
 
 ## Installation
