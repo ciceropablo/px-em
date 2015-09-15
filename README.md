@@ -27,28 +27,32 @@ pxEm(16, 24, true)
 
 Type: `number` or `string`
 
-TODO...
+Returns a promise that resolves to the value converted.
 
 #### `px`
 
 *Required*  
 Type: `number`
 
-TODO...
+Pixel value to converting.
 
 #### `base`
 
 Type: `number`  
 Default: `16`
 
-TODO...
+Base value to converting.
 
 #### `format`
 
 Type: `boolean`  
 Default: `false`
 
-TODO...
+Format value to formatting.
+
+## Related
+
+See **[em-px](https://github.com/ciceropablo/em-px)** for the inverse.
 
 ## License
 
