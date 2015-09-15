@@ -23,5 +23,8 @@
   "homepage": "https://github.com/ciceropablo/px-em#readme",
   "devDependencies": {
     "jshint": "^2.8.0"
+  },
+  "dependencies": {
+    "pinkie-promise": "^1.0.0"
   }
 }
