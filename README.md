@@ -21,6 +21,20 @@ pxEm(16, 24, true)
   });
 ```
 
+Or
+
+```js
+var pxEm = require('px-em');
+
+pxEm('16px', '24px', true)
+  .then(function(em) {
+    console.log(em); // 0.667em
+  })
+  .catch(function(err) {
+    console.log(err.message);
+  });
+```
+
 ## API
 
 ### `pxEm(px, [base], [format])`
@@ -32,13 +46,13 @@ Returns a promise that resolves to the value converted.
 #### `px`
 
 *Required*  
-Type: `number`
+Type: `number` or `string`
 
 Pixel value to converting.
 
 #### `base`
 
-Type: `number`  
+Type: `number` or `string`  
 Default: `16`
 
 Base value to converting.
